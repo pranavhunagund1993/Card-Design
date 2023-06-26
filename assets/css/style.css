@@ -1,0 +1,150 @@
+/* main CSS section starts here */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > article {
+    width: 90%;
+    height: 60vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.2), 2px 3px 2px rgba(0,0,0,0.19);
+}
+
+.card-header {
+    background-color: rgb(6, 73, 66);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-header h1 {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.card-header img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 5px;
+    margin-top: -20px;
+}
+
+.card-block {
+    flex-basis: 60%;
+    background-color: rgb(249, 245, 205);
+    border-radius: 8px;
+    padding: 8px 0px;
+}
+
+.card-block i {
+    font-size: 14px;
+}
+
+.card-block i, .card-block p {
+    font-size: 12px;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-block h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer{
+    padding: 8px 15px;
+}
+
+.portfolio, .resume, .curiculum {
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.portfolio{
+    background-color: palegreen;
+}
+
+.resume {
+    background-color: paleturquoise;
+}
+
+.curiculum {
+    background-color: palegoldenrod;
+}
+
+.fa-folder, .folder, .folder-1 {
+    color: green;
+}
+
+.folder-1, .file-1, .books-1 {
+    font-size: 20px;
+}
+
+.fa-file, .file, .file-1 {
+    color: blue;
+}
+
+.fa-books, .books, .books-1 {
+    color: #000;
+}
+
+.folder, .file, .books {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
